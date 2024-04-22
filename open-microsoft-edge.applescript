@@ -6,7 +6,7 @@
 # @raycast.mode silent
 
 # Optional parameters:
-# @raycast.icon 🤖
+# @raycast.icon 🕸️
 # @raycast.packageName Microsoft Edge
 # @raycast.argument1 { "type": "text", "placeholder": "url", "optional": true }
 
@@ -21,7 +21,7 @@ on run argv
 
     -- Check if a URL is provided and set the URL accordingly
     set theURL to defaultURL
-    if (count of argv) ≥ 1 then
+    if (count of argv) >= 1 then
         set theURL to item 1 of argv
     end if
 
